@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-color: rgb(26, 26, 34);
+    }
+/* navbar style start */
+body{
+    color: white;
+}
+#navbar{
+    background-color: rgb(25, 160, 137);
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    }
+#navbar a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    }
+    .active{
+        background-color: rgb(11, 235, 48);
+    }
+    
+/* navbar style end */
+
+h1{
+    background-color: rgb(33, 22, 95);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#container{
+    margin: auto; 
+    text-align: center;
+    height: 200px;
+    width:400px;
+    padding: 20px;
+    background-color: rgb(75, 54, 95);
+    }
+    select{
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(27, 20, 90);
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 500;
+        }
+/* subject*/
+
+.container{
+   margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    width:400px;
+    background-color: rgb(75, 54, 95);
+    }
+.main{
+    text-align: center;
+    }
+input{
+        width: 200px;
+        padding: 8px;
+        } 
+button{
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        }
+.todo-item-div{
+        background-color: rgb(241, 164, 20);
+        width: 400px;
+        height: 400px;
+        box-shadow: 4px 5px 10px black;
+        padding: 10px;  
+        margin: auto;
+        text-align: center;
+        }
+li{
+    text-align: justify ;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+h2{
+    text-align: center ;
+}
+#OlItem{
+padding-left: 40px;
+}

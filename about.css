@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-color: rgb(26, 26, 34);
+    }
+/* navbar style start */
+#navbar{
+    background-color: rgb(25, 160, 137);
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    }
+#navbar a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    }
+    .active{
+        background-color: rgb(11, 235, 48);
+    }
+    
+/* navbar style end */
+
+h1{
+    background-color: red;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    }
+pre{
+    
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    
+    }
+
+img{
+    padding-left: 200px;
+    width: 800px;
+    height: 400px;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-color: rgb(26, 26, 34);
+    }
+/* navbar style start */
+#navbar{
+    background-color: rgb(25, 160, 137);
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    }
+#navbar a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    }
+    .active{
+        background-color: rgb(11, 235, 48);
+    }
+    
+/* navbar style end */
+h1{
+    color: wheat;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding-left: 20px;
+}
+#a4page{
+    width: 8.27in;
+    height: 11.69in;
+    background-color: black;
+    color: white;
+    margin: auto;
+    font-size: 25px;
+}
+
+option{
+    color: white;
+}
+select{
+    color: white;
+    background-color:black;
+}
+p{
+   font-size: 1.1rem;
+   text-align:center;
+   padding: 10px;
+   color: white;
+}
+.under{
+    text-decoration: underline;
+}

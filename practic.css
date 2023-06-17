@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-color: rgb(26, 26, 34);
+    }
+/* navbar style start */
+#navbar{
+    background-color: rgb(25, 160, 137);
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    }
+#navbar a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    }
+   .active{
+    background-color: rgb(11, 235, 48);
+    } 
+/* navbar style end */
+pre{
+    margin: top 12rem; ;
+    text-align: center;
+}
+pre::after{
+  border-right: 2px solid rgb(183, 183, 228);
+  content: '';
+  left: 10px;
+  animation: blink .8s infinite;
+}
+@keyframes blink{
+   0%{
+       opacity: 0;
+   }
+   100%{
+       opacity: 1;
+   }
+}
+
+/* formlist start */
+h1{
+    color: wheat;
+    background-color: rgb(11, 214, 79);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#formlink{
+    text-align: center;
+    color: wheat;
+    font-size: 1.4rem;
+    margin: auto;
+    }
+
+.btn{
+    text-align: center;
+    color: wheat;
+    font-size: 2rem;
+    width: 300px;
+    background-color: rgb(146, 138, 28);
+    }
+    input{
+        color: white;
+         background-color: rgb(109, 189, 153);
+         font-size: 20px;
+    }
+table{
+   margin: auto;
+}
+th{
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 2rem;
+}
+/* formlist end */
